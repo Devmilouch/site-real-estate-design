@@ -29,7 +29,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/sites/real-estate-design/">
         <GlobalStyle />
         <Navbar toggle={toggle}/>
         <Dropdown toggle={toggle} isOpen={isOpen} />

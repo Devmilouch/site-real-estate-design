@@ -147,7 +147,7 @@ const Hero = ({ sliderData }) => {
     }
 
     const prevSlide = () => {
-        if (current - 1 < 0) setCurrent(3)
+        if (current - 1 < 0) setCurrent(length - 1)
         else setCurrent(current - 1)
     }
 
