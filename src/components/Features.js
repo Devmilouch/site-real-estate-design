@@ -85,7 +85,7 @@ const Features = () => {
                             data-aos="fade-right"
                             data-aos-duration="1200"
                             data-aos-delay="300"
-                            data-aos-anchor-placement="center bottom"
+                            data-aos-anchor-placement="center-bottom"
                         >
                             <h1>Stunning Interior</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eos qui perferendis. Vel quis, ratione tenetur eos vero praesentium ipsum!</p>
@@ -98,7 +98,7 @@ const Features = () => {
                             src={ImageOne} 
                             data-aos="fade-left"
                             data-aos-duration="1200"
-                            data-aos-anchor-placement="center bottom"
+                            data-aos-anchor-placement="center-bottom"
                         />
                     </ColumnRight>
                 </Wrap>

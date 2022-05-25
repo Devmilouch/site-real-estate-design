@@ -79,7 +79,7 @@ const InfoSection = ({
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay={delay}
-                    data-aos-anchor-placement="center bottom"
+                    data-aos-anchor-placement="center-bottom"
                 >
                     <h1>{ heading }</h1>
                     <p>{ paragraphOne }</p>
@@ -93,7 +93,7 @@ const InfoSection = ({
                         data-aos="zoom-out"
                         data-aos-duration="1000"
                         data-aos-delay={delay}
-                        data-aos-anchor-placement="center bottom"
+                        data-aos-anchor-placement="center-bottom"
                      />
                 </ColumnRight>
             </Container>

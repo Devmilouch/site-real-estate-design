@@ -84,14 +84,14 @@ const Listings = () => {
                     <h1
                     data-aos="fade-right"
                     data-aos-duration="1000"
-                    data-aos-anchor-placement="center bottom"
+                    data-aos-anchor-placement="center-bottom"
                     >View our newest Homes</h1>
                 </Heading>
                 <InfoRow>
                     <InfoWrap
                         data-aos="zoom-out-up"
                         data-aos-duration="1200"
-                        data-aos-anchor-placement="center bottom"
+                        data-aos-anchor-placement="center-bottom"
                     >
                         <Image src={HomeOne} alt="Home" />
                         <h2>8 Bed 10 Bath House in Venice, California</h2>
@@ -103,7 +103,7 @@ const Listings = () => {
                     <InfoWrap
                     data-aos="zoom-out-down"
                     data-aos-duration="1200"
-                    data-aos-anchor-placement="center bottom"
+                    data-aos-anchor-placement="center-bottom"
                     >
                         <Image src={HomeTwo} alt="Home" css={`margin-top: 120px; @media screen and (max-width: 768px) {margin-top: 0px;}`} />
                         <h2>4 Bed 2 Bath House in Miami, Florida</h2>
